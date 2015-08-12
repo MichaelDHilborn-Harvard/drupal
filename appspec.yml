@@ -30,7 +30,9 @@ hooks:
 
     - location: scripts/copysettings.sh
       timeout: 120
-    - location: scripts/install_new_relic.sh timeout: 180
+
+    - location: scripts/install_new_relic.sh 
+      timeout: 180
       runas: root
 
   #
